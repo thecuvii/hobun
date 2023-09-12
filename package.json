@@ -1,0 +1,17 @@
+{
+  "name": "hobun",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot api/[...index].ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.5",
+    "hono": "^3.6.0"
+  }
+}
